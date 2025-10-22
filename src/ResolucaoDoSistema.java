@@ -1,7 +1,7 @@
 import java.awt.Toolkit;
 import java.awt.Dimension;
 public class ResolucaoDoSistema {
-    static void main(String[]args) {
+    public static void main(String[] args) {
         Dimension screeSizes = Toolkit.getDefaultToolkit().getScreenSize();
     // Obtem a resoluçao da tela
         int width = screeSizes.width;
